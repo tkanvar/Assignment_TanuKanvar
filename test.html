@@ -7,7 +7,6 @@
 <body>
 	<div>
 		<label id="label_unit_test_number" for="unit_test_number">Enter unit test number</label>
-
 		<select name="unit_test_number" id="unit_test_number">
 		  <option value="0">Fetch from url</option>
 		  <option value="1">Empty data</option>
@@ -19,6 +18,15 @@
 
 		<button type="button" id="fetch-filter-button" onclick="FetchUserData(0)">Fetch User Data</button>
 		<input type="text" style="display:none" id="searchInput" placeholder="Search in table..." title="Type in to search in table" /> 
+		
+		<div id="pageInfo" style="display:none;position: relative; float:right; width: fit-content;">
+			<label id="pageLabel">Page:</label>
+			<input type="text" style="width:20px;" id="pageText" value="1">
+			<label id="pagesLabel"> of </label>
+			<label id="numpages"></label>
+			<button id="searchPage">Search Page</button>
+		</div>
+		
 		<table id="datatable">
 			<thead id="datatable-thead" class="customHeader"></thead>
 			<tbody id="datatable-tbody"></tbody>
