@@ -1,0 +1,22 @@
+.customHeader { 
+    background-color: lightgreen; 
+}
+
+tr.customBody:hover td {
+	background-color: grey;
+	color: white;
+} 
+
+tr.r0 td {
+	background-color: lightgrey;
+	color: black;
+}
+
+tr.r1 td {
+	background-color: #9e9e9e;
+	color: white;
+}
+
+thead tr td:hover {
+	cursor: pointer
+}
