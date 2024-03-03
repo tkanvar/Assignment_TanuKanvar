@@ -1,5 +1,10 @@
+table {
+	font-family: arial;
+}
 .customHeader { 
-    background-color: lightgreen; 
+    background-color: black; 
+	color: white;
+	text-align: center;
 }
 
 tr.customBody:hover td {
@@ -8,13 +13,13 @@ tr.customBody:hover td {
 } 
 
 tr.r0 td {
-	background-color: lightgrey;
+	background-color: white;
 	color: black;
 }
 
 tr.r1 td {
-	background-color: #9e9e9e;
-	color: white;
+	background-color: lightgrey;
+	color: black;
 }
 
 thead tr td:hover {
